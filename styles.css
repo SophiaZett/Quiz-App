@@ -1,5 +1,6 @@
-*{
+* {
     box-sizing: border-box;
+    
 }
 
 h1 {
@@ -17,6 +18,7 @@ h1 {
 body {
     margin: 0;
     background-image: url();
+    font-family: monospace;
     
 }
 
@@ -31,6 +33,7 @@ div {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin: 0;
 }
 
 .card__bookmark {
@@ -49,9 +52,8 @@ div {
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    width: 100;
+    
 }
 
 .navigation {
@@ -64,12 +66,13 @@ nav {
 
 }
 
-
-.bottomline {
-list-style: none;
-display: flex;
-justify-content: center;
-gap: 5px;
-margin: ;
-
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: whitesmoke;
+    gap: 20px;
+    padding: 0;
 }
+
