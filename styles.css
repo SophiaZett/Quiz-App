@@ -16,6 +16,7 @@ h1 {
 
 body {
     margin: 0;
+    background-image: url();
     
 }
 
@@ -45,4 +46,30 @@ div {
     background-color: orange;
     height: 25px;
     width: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.navigation {
+    background-color:  black;
+    color: whitesmoke;
+    padding: 5ps 14px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+
+}
+
+
+.bottomline {
+list-style: none;
+display: flex;
+justify-content: center;
+gap: 5px;
+margin: ;
+
 }
