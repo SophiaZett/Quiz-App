@@ -1,4 +1,17 @@
+*{
+    box-sizing: border-box;
+}
 
 h1 {
-    color: red;
+    color: blueviolet;
+    background-color: lightblue;
+    margin: 0;
+    height: 10%;
+    border-radius: 5%;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    
 }
