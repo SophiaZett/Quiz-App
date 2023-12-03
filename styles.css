@@ -15,64 +15,32 @@ h1 {
     
 }
 
-body {
-    margin: 0;
-    background-image: url();
-    font-family: monospace;
-    
+.flex-container {
+   position: relative;
+
+
 }
 
 section {
+
+    border: 2px solid black;
     display: flex;
     flex-direction: column;
-    border: 2px solid;
-    position: relative;
-}
-
-div {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin: 0;
-}
-
-.card__bookmark {
-    position: absolute;
-    top: 10px;
-    right: 30px;
-    font-size: 27px;
-    border-radius: 50%;
-   
-}
-
-.card__bookmark:hover {
-    background-color: orange;
-    height: 25px;
-    width: 25px;
-}
-
-nav {
-    width: 100;
+    align-items: center;
     
 }
 
-.navigation {
-    background-color:  black;
-    color: whitesmoke;
-    padding: 5ps 14px;
-    border-radius: 5px;
-    text-align: center;
-    padding: 2px;
+card__bookmark {
 
 }
 
-ul {
-    list-style: none;
+.bottomline {
     display: flex;
-    justify-content: space-around;
-    background-color: black;
-    color: whitesmoke;
-    gap: 20px;
-    padding: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: end;
+  font-size: 15px;
 }
 
