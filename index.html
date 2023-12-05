@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
@@ -12,27 +13,27 @@
 <body>
     <header class="header">
         <h1 class="header__heading">Quiz App</h1>
-        <span class="header__text">the right answers for the next level</span>
+        <span class="header__text">take your brain to the next level</span>
 </header>
     <main>
 <div class="flex-container">
     <section>
         <p>Die erste Frage?</p>
         <span class="card__bookmark">&#128278;</span>
-        <Button>Click mich</Button>
-        <p>Antwort</p>
+        <Button data-js="button1">Click mich</Button>
+        <p data-js="antwort1">Antwort</p>
     </section>
     <section>
         <p>Die zweite Frage?</p>
         <span class="card__bookmark">&#128278;</span>
-        <Button>Click mich</Button>
-        <p>Antwort</p>
+        <Button data-js="button2">Click mich</Button>
+        <p data-js="antwort2">Antwort</p>
     </section>
     <section>
         <p>Die dritte Frage?</p>
         <span class="card__bookmark">&#128278;</span>
-        <Button>Click mich</Button>
-        <p>Antwort</p>
+        <Button data-js="button3">Click mich</Button>
+        <p data-js="antwort3">Antwort</p>
     </section>
 </div>
 </main>
