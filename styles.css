@@ -5,6 +5,10 @@
     
 }
 
+body {
+    background-color: aliceblue;
+}
+
 .header {
     
     background: rgb(23, 66, 80);
@@ -39,6 +43,7 @@
 
 section {
 
+    background-color: azure;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
