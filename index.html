@@ -11,51 +11,37 @@
     <title>Quiz App</title>
 </head>
 <body>
+    <main>
     <header class="header">
         <h1 class="header__heading">Quiz App</h1>
         <span class="header__text">take your brain to the next level</span>
 </header>
-    <main>
+    
 <div class="flex-container">
     <section>
         <p>Die erste Frage?</p>
-        <span class="card__bookmark">&#128278;</span>
+        <a type="button" href="bookmarks.html" class="card__bookmark">&#128278;</a>
         <Button data-js="button1">Click mich</Button>
         <p data-js="antwort1">Antwort</p>
     </section>
     <section>
         <p>Die zweite Frage?</p>
-        <span class="card__bookmark">&#128278;</span>
+        <a href="bookmarks.html" class="card__bookmark">&#128278;</a>
         <Button data-js="button2">Click mich</Button>
         <p data-js="antwort2">Antwort</p>
     </section>
     <section>
         <p>Die dritte Frage?</p>
-        <span class="card__bookmark">&#128278;</span>
+        <a href="bookmarks.html" class="card__bookmark">&#128278;</a>
         <Button data-js="button3">Click mich</Button>
         <p data-js="antwort3">Antwort</p>
     </section>
 </div>
 </main>
-<footer>
-    <nav>
-        <ul class="bottomline">
-            <li>
-                <span class="emojis">&#127968;</span>
-                <a class="button" href="#home">Home</a>
-                
-            </li>
-            <li>
-                <span class="emojis">&#128278;</span>
-                <a class="button" href="#bookmark">Bookmark</a>
-            </li>
-            <li>
-                <span class="emojis">&#128100;</span>
-                <a class="button" href="#profile">Profile</a>
-            </li>
-        </ul>
-    </nav>
-    <p>&copy; Eileen, Sophia, Jessica & Nadine</p>
+<footer class="navigation">
+    <a type="button" href="index.html">🏠</a>
+    <a type="button" href="bookmarks.html">🔖</a>
+    <a type="button" href="profile.html">👤</a>
 </footer>
 </body>
 </html>
